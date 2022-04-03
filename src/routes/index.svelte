@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Elden Ring | White Wish Wiki</title>
+	<title>ELDEN RING | White Wish Wiki</title>
 </svelte:head>
 
 <div>

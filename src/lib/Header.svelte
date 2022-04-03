@@ -10,7 +10,7 @@
 		<h2>Welcome ye Tarnished, to the Elden Ring White Wish Wiki.</h2>
 		<p>
 			Tis wiki's flame of ambition is yet to be extinguished. <a
-				href="/blog/introducing-white-wish-wiki">Learn more</a
+				href="/news/wiki/introducing-white-wish-wiki">Learn more</a
 			>.
 		</p>
 	</div>
@@ -27,9 +27,9 @@
 	}
 
 	div {
+		display: none;
 		padding: 0.5rem 1rem;
 		margin: 0;
-		display: flex;
 		flex-direction: column;
 		gap: 0.25rem;
 		border: 1px solid #c19d53;
@@ -50,9 +50,13 @@
 		text-decoration: none;
 	}
 
-	@media screen and (min-width: 973px) {
+	@media screen and (min-width: 1000px) {
 		header {
 			justify-content: unset;
+		}
+
+		div {
+			display: flex;
 		}
 	}
 </style>

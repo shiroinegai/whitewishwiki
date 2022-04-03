@@ -20,7 +20,13 @@
 		background-image: url('/images/20.webp');
 		background-position: center center;
 		background-blend-mode: overlay;
-		padding: 2rem 2rem 4rem;
+		padding: 0 0 4rem;
 		margin: 0;
+	}
+
+	@media screen and (min-width: 1000px) {
+		main {
+			padding: 2rem 2rem 4rem;
+		}
 	}
 </style>
